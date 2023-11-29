@@ -1,0 +1,15 @@
+.btnOptions {
+	padding: 0.5em 1em;
+	font-size: 1.8rem;
+	background-color: rgb(179, 76, 136);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 0 5px white;
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.btnOptions:hover {
+	background-color: rgb(129, 55, 98);
+}

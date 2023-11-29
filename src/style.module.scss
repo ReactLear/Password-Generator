@@ -1,0 +1,51 @@
+html {
+	font-size: 62.5%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background: rgb(49, 111, 228);
+	background: linear-gradient(90deg, rgba(49, 111, 228, 1) 0%, rgba(131, 109, 226, 1) 50%, rgba(49, 111, 228, 1) 100%);
+}
+
+.appArea {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	height: 600px;
+	width: 380px;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+	background: rgb(103, 79, 219);
+	background: linear-gradient(90deg, rgba(103, 79, 219, 1) 0%, rgba(66, 112, 205, 1) 50%, rgba(103, 79, 219, 1) 100%);
+	transition: animation 0.3s;
+	animation: input-animation 12s ease-in-out infinite;
+
+	@keyframes input-animation {
+		0% {
+			box-shadow: 0 0 10px black;
+		}
+		25% {
+			box-shadow: 0 0 10px rgb(255, 255, 255);
+		}
+		50% {
+			box-shadow: 0 0 10px black;
+		}
+
+		75% {
+			box-shadow: 0 0 10px rgb(255, 255, 255);
+		}
+
+		100% {
+			box-shadow: 0 0 10px black;
+		}
+	}
+}

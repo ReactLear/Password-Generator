@@ -1,0 +1,47 @@
+.infoArea {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+
+	.modalBtn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0.5em;
+		font-size: 2rem;
+		font-weight: bold;
+		aspect-ratio: 1;
+		border: 2px solid white;
+		border-radius: 50%;
+		background-color: transparent;
+		color: white;
+		transition: color 0.3s, border 0.3s;
+		cursor: pointer;
+	}
+
+	.modalBtn:hover {
+		color: rgb(68, 255, 77);
+		border: 2px solid rgb(89, 177, 111);
+	}
+}
+
+.modal {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 5em;
+	height: 140px;
+	width: 300px;
+	border: 1px solid white;
+	border-radius: 8px;
+	z-index: 10;
+	background: rgb(63, 94, 251);
+	background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(45, 34, 152, 1) 100%);
+
+	.modalText {
+		font-size: 2rem;
+		color: white;
+	}
+}

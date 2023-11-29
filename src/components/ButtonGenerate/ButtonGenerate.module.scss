@@ -1,0 +1,17 @@
+.btnGenerate {
+	margin-top: 0.5em;
+	font-size: 1.8rem;
+	width: 40%;
+	padding: 0.5em;
+	border: none;
+	box-shadow: 0 0 8px rgb(146, 241, 146);
+	border-radius: 8px;
+    background-color: rgb(18, 107, 18);
+    color: white;
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+.btnGenerate:hover {
+    background-color: rgb(17, 70, 17);
+}
